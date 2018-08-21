@@ -8,11 +8,17 @@
 
 - When you want to allow children of a class to switch algorithms on the fly
 - When you want to restrict the types of some particular behavior
+- When children should choose behavior from a list of possibilities
 
 ## Why?
  
  - Allows clients (subclasses) to switch from one algorithm to the other
- - Number of algorithms can increment with time
+ - Easy to increment bumber of algorithms (behavior) in the list
+ - Allows children to choose behavior
+ - Reduces conditionals
+ - Avoids duplicate code
+ - Hides complicated code
+ 
 
 ## How?
 
