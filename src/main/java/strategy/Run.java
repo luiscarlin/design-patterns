@@ -2,7 +2,7 @@ package strategy;
 
 import strategy.algorithms.CanFly;
 
-public class Strategy {
+public class Run {
     public static void main(String[] args) {
 
         Animal myCat = new Cat();
