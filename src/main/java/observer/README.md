@@ -16,3 +16,10 @@
 - (Negative) the observers get all updates. Even on information that the object may not care about.
 
 ## How?
+
+- Create Subject class (publisher) that knows how to: 
+  - Register/ unregister an observer
+  - Notify observers
+- Create the Observer interface with the method `update()`
+- Create multiple Observer classes that implement Observer interface
+  
