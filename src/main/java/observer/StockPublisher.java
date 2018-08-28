@@ -31,5 +31,23 @@ public class StockPublisher implements Subject {
     public void notifyObservers() {
         System.out.println("Notifying observers");
 
+        for (Observer observer : observerList) {
+            observer.update(ibmPrice, applePrice, googlePrice);
+        }
+    }
+
+    public void setIbmPrice(double ibmPrice) {
+        this.ibmPrice = ibmPrice;
+        notifyObservers();
+    }
+
+    public void setApplePrice(double applePrice) {
+        this.applePrice = applePrice;
+        notifyObservers();
+    }
+
+    public void setGooglePrice(double googlePrice) {
+        this.googlePrice = googlePrice;
+        notifyObservers();
     }
 }
