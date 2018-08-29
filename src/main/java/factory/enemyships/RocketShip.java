@@ -1,4 +1,6 @@
-package factory;
+package factory.enemyships;
+
+import factory.EnemyShip;
 
 public class RocketShip extends EnemyShip {
     public RocketShip() {

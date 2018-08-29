@@ -1,5 +1,9 @@
 package factory;
 
+import factory.enemyships.BigUfoShip;
+import factory.enemyships.RocketShip;
+import factory.enemyships.UfoShip;
+
 // will get you an enemy ship based on a character
 public class EnemyShipFactory {
     public EnemyShip makeEnemyShip(String type) {
