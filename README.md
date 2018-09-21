@@ -2,6 +2,7 @@
 
 1. [Strategy Pattern](https://github.com/luiscarlin/design-patterns/blob/master/src/main/java/strategy)
 1. [Factory Pattern](https://github.com/luiscarlin/design-patterns/tree/master/src/main/java/factory)
+1. [Observer Pattern](https://github.com/luiscarlin/design-patterns/tree/master/src/main/java/observer)
 
 ## References
 
